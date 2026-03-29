@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./device_db.schema.json
 
-# ========== Device database ========== 
-# 
+# ========== Device database ==========
+#
 # Please refer to device_db_explained.md
-# 
+#
 # And use the schema for validation!
 #   (e.g. in VSCode with YAML extension)
-# 
+#
 # Rules:
 # - Follow the format
 # - Fill empty values with null
@@ -345,10 +345,10 @@ MODULE_AVATTO_A_TS0001:
   build: yes
   status: fully_supported
   info: Supported
-  threads: 
+  threads:
   - https://github.com/romasku/tuya-zigbee-switch/issues/9
   - https://github.com/romasku/tuya-zigbee-switch/issues/350
-  store: 
+  store:
   - https://www.aliexpress.com/item/1005007247647375.html
   - https://www.aliexpress.com/item/1005006041739970.html
 MODULE_AVATTO_A_TS0002:
@@ -381,10 +381,10 @@ MODULE_AVATTO_A_TS0002:
   build: yes
   status: fully_supported
   info: Supported
-  threads: 
+  threads:
   - https://github.com/romasku/tuya-zigbee-switch/issues/9
   - https://github.com/romasku/tuya-zigbee-switch/issues/350
-  store: 
+  store:
   - https://www.aliexpress.com/item/1005007247647375.html
   - https://www.aliexpress.com/item/1005006041739970.html
 MODULE_AVATTO_A_TS0003:
@@ -477,7 +477,7 @@ MODULE_AVATTO_B_TS0003:
   build: yes
   status: fully_supported
   info: Supported
-  threads: 
+  threads:
   - https://github.com/romasku/tuya-zigbee-switch/issues/275
   - https://github.com/romasku/tuya-zigbee-switch/issues/316
   store: https://www.aliexpress.com/item/1005006041739970.html
@@ -885,7 +885,7 @@ MODULE_FARYLINK_L_TS0001:
   config_str: qlhs2kqr;TS0001-FL;BB7u;LC2;SC4u;RB1;
   alt_config_str: null
   old_manufacturer_names: null
-  old_zb_models: 
+  old_zb_models:
   - TS0002-FL
   stock_manufacturer_id: 4417
   stock_image_type: 54179
@@ -1302,7 +1302,7 @@ MODULE_HOBEIAN_MINI_TS0001:
   status: fully_supported
   info: Supported
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/347
-  store: 
+  store:
   - https://www.aliexpress.com/item/1005011618936071.html
   - https://www.aliexpress.com/item/1005011567311112.html
 MODULE_HOBEIAN_TS0001_1:
@@ -1357,7 +1357,7 @@ MODULE_HOBEIAN_TS0001_2:
   build: yes
   status: fully_supported
   info: Supported
-  threads: 
+  threads:
   - https://github.com/romasku/tuya-zigbee-switch/issues/189
   - https://github.com/romasku/tuya-zigbee-switch/issues/289
   store: null
@@ -1414,7 +1414,7 @@ MODULE_IHSENO_TS0001:
   status: fully_supported
   info: Supported
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/105
-  store: 
+  store:
     - https://www.aliexpress.com/item/1005008107698143.html
     - https://www.aliexpress.com/item/1005010559698949.html
 MODULE_IHSENO_TS0002:
@@ -1443,7 +1443,7 @@ MODULE_IHSENO_TS0002:
   status: in_progress
   info: Needs ID, pinout confirmation
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/105
-  store: 
+  store:
     - https://www.aliexpress.com/item/1005008107698143.html
     - https://www.aliexpress.com/item/1005010559698949.html
 MODULE_IHSENO_TS0003:
@@ -1475,7 +1475,7 @@ MODULE_IHSENO_TS0003:
   status: fully_supported
   info: Supported
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/85
-  store: 
+  store:
     - https://www.aliexpress.com/item/1005008107698143.html
     - https://www.aliexpress.com/item/1005010559698949.html
 MODULE_IHSENO_TS0004:
@@ -1505,7 +1505,7 @@ MODULE_IHSENO_TS0004:
   status: fully_supported
   info: Supported
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/105
-  store: 
+  store:
     - https://www.aliexpress.com/item/1005008107698143.html
     - https://www.aliexpress.com/item/1005010559698949.html
 MODULE_IHSENO_A_TS0001:
@@ -1641,7 +1641,7 @@ MODULE_MOES_TS0011:
   firmware_image_type: 43629
   build: yes
   status: mostly_supported
-  info: Buzzer A3, switch + button wired together 
+  info: Buzzer A3, switch + button wired together
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/343
   store: https://moeshouse.com/products/zm-104l-ms-zigbee-module
 MODULE_MOES_ZM4LT1_TS0001:
@@ -3642,7 +3642,7 @@ SWITCH_BSEED_TS0726_4GANG:
   config_str: pzao9ls1;BS4;LC1;SD3u;RA0;ID2;SD7u;RA1;IB4;SD4u;RC2;IB5;SB6u;RC3;IC4;M;
   alt_config_str: null
   old_manufacturer_names: null
-  old_zb_models: 
+  old_zb_models:
   - TS0726-4-BS
   stock_manufacturer_id: 4417
   stock_image_type: 54179
@@ -3804,7 +3804,7 @@ SWITCH_HOBEIAN_TS0011:
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/325
   store: null
 SWITCH_HOMEETEC_TOUCH_TS0001:
-  human_name: homeetec 1-gang touch 
+  human_name: homeetec 1-gang touch
   category: switch
   power: mains
   neutral: required
@@ -3831,7 +3831,7 @@ SWITCH_HOMEETEC_TOUCH_TS0001:
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/286
   store: null
 SWITCH_HOMEETEC_TOUCH_TS0002:
-  human_name: homeetec 2-gang touch 
+  human_name: homeetec 2-gang touch
   category: switch
   power: mains
   neutral: required
@@ -3858,7 +3858,7 @@ SWITCH_HOMEETEC_TOUCH_TS0002:
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/286
   store: null
 SWITCH_HOMEETEC_TOUCH_TS0003:
-  human_name: homeetec 3-gang touch 
+  human_name: homeetec 3-gang touch
   category: switch
   power: mains
   neutral: required
@@ -3885,7 +3885,7 @@ SWITCH_HOMEETEC_TOUCH_TS0003:
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/286
   store: null
 SWITCH_HOMEETEC_TOUCH_TS0004:
-  human_name: homeetec 4-gang touch 
+  human_name: homeetec 4-gang touch
   category: switch
   power: mains
   neutral: required
@@ -3939,7 +3939,7 @@ SWITCH_IHSENO_TS0001:
   threads:
   - https://github.com/romasku/tuya-zigbee-switch/issues/146
   - https://github.com/romasku/tuya-zigbee-switch/pull/319
-  store: 
+  store:
   - https://www.aliexpress.com/item/1005007532195287.html
   - https://aliexpress.com/item/1005009932915725.html
   - https://www.aliexpress.com/item/1005008253013778.html
@@ -3971,7 +3971,7 @@ SWITCH_IHSENO_TS0002:
   threads:
   - https://github.com/romasku/tuya-zigbee-switch/issues/146
   - https://github.com/romasku/tuya-zigbee-switch/pull/319
-  store: 
+  store:
   - https://www.aliexpress.com/item/1005007532195287.html
   - https://aliexpress.com/item/1005009932915725.html
   - https://www.aliexpress.com/item/1005008253013778.html
@@ -4003,7 +4003,7 @@ SWITCH_IHSENO_TS0003:
   threads:
   - https://github.com/romasku/tuya-zigbee-switch/issues/146
   - https://github.com/romasku/tuya-zigbee-switch/pull/319
-  store: 
+  store:
   - https://www.aliexpress.com/item/1005007532195287.html
   - https://aliexpress.com/item/1005009932915725.html
   - https://www.aliexpress.com/item/1005008253013778.html
@@ -4822,3 +4822,66 @@ SWITCH_ZEMISMART_TS0601_6GANG:
   info: Needs pinout. Secondary MCU. 6-gang!
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/209
   store: https://www.zemismart.com/products/tb26-6
+ZIGBEE_TUYA_TS0042_TZVBIMPQ:
+  human_name: Tuya TS0042 2-gang scene switch
+  category: remote
+  power: CR2032
+  neutral: without
+  output: null
+  device_type: end_device
+  stock_model_name: TS0042
+  stock_manufacturer_name: _TZ3000_tzvbimpq
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0042
+  override_z2m_device: null
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: tzvbimpq;TS0042-custom;LD4;SD2u;SC3u;ID7;M;PwrCR2032;ED;NR;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 43521
+  build: "yes"
+  status: in_progress
+  info: >
+    2-gang battery scene switch. Same PCB as TS0043 3-gang variant.
+    SW1→D2, SW3→C3 (SW2/C2 unpopulated).
+    LED1→D4, LED3→D7 (LED2/C4 unpopulated).
+    No hardware battery ADC divider - uses internal VBAT.
+    Hold any button >5s to enter pairing mode.
+  threads: null
+  store: null
+ZIGBEE_TUYA_TS0043_SJ7JBGKS:
+  human_name: Tuya TS0043 3-gang scene switch
+  category: remote
+  power: CR2032
+  neutral: without
+  output: null
+  device_type: end_device
+  stock_model_name: TS0043
+  stock_manufacturer_name: _TZ3000_sj7jbgks
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0043
+  override_z2m_device: null
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: sj7jbgks;TS0043-custom;LD4;SD2u;SC2u;SC3u;ID4;IC4;ID7;M;PwrCR2032;ED;NR;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 43521
+  build: "no"
+  status: in_progress
+  info: >
+    3-gang battery scene switch. Same PCB as TS0042 2-gang variant.
+    All three gangs populated: SW1→D2, SW2→C2, SW3→C3.
+    LED1→D4, LED2→C4, LED3→D7.
+    Config string is untested - verify pinout before building.
+  threads: null
+  store: null
