@@ -4837,7 +4837,7 @@ ZIGBEE_TUYA_TS0042_TZVBIMPQ:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: tzvbimpq;TS0042-custom;LD4;SD2u;SC3u;ID7;M;PwrCR2032;ED;NR;
+  config_str: tzvbimpq;TS0042-custom;LD4;SD2u;SC3u;IC4;ID7;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
@@ -4847,9 +4847,9 @@ ZIGBEE_TUYA_TS0042_TZVBIMPQ:
   build: "yes"
   status: in_progress
   info: >
-    2-gang battery scene switch. Same PCB as TS0043 3-gang variant.
-    SW1→D2, SW3→C3 (SW2/C2 unpopulated).
-    LED1→D4, LED3→D7 (LED2/C4 unpopulated).
+    2-gang battery scene switch. Same PCB as TS0043 3-gang variant (1H-V1 2021/1/12).
+    S1→D2, S3→C3 (S2 centre unpopulated - no tactile switch fitted).
+    LED1→D4 (near S1), LED2 FET→C4, LED3→D7 (near S3).
     No hardware battery ADC divider - uses internal VBAT.
     Hold any button >5s to enter pairing mode.
   threads: null
@@ -4869,7 +4869,7 @@ ZIGBEE_TUYA_TS0043_SJ7JBGKS:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: sj7jbgks;TS0043-custom;LD4;SD2u;SC2u;SC3u;ID4;IC4;ID7;M;PwrCR2032;ED;NR;
+  config_str: sj7jbgks;TS0043-custom;LD4;SD2u;SC2u;SC3u;IC4;ID7;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
@@ -4879,9 +4879,10 @@ ZIGBEE_TUYA_TS0043_SJ7JBGKS:
   build: "no"
   status: in_progress
   info: >
-    3-gang battery scene switch. Same PCB as TS0042 2-gang variant.
-    All three gangs populated: SW1→D2, SW2→C2, SW3→C3.
-    LED1→D4, LED2→C4, LED3→D7.
-    Config string is untested - verify pinout before building.
+    3-gang battery scene switch. Same PCB as TS0042 2-gang variant (1H-V1 2021/1/12).
+    S1→D2, S2→C2, S3→C3 (all three switches populated).
+    LED1→D4 (near S1), LED2 FET→C4, LED3→D7 (near S3).
+    No hardware battery ADC divider - no battery reporting.
+    Config string derived from TS0042 confirmed pinout - likely correct but unverified.
   threads: null
   store: null
