@@ -212,5 +212,9 @@ Support new devices: [contribute/porting.md](/docs/contribute/porting.md)
 | 🟩 | ✔️ | 🇸 | 🔌 | ➿ | **SL** | `_TZ3000_ilauzyjm` <br> `TS0011` | [Zemismart 1-gang switch 🅱](https://www.zigbee2mqtt.io/devices/TS0011.html) | [`Store`](https://www.zemismart.com/products/kes-606us-z?VariantsId=14159) | [`#022`](https://github.com/romasku/tuya-zigbee-switch/issues/22) | Supported | 
 | 🟩 | ✔️ | 🇸 | 🔌 | ➿ | **SL** | `_TZ3000_rbl8c85w` <br> `TS0012` | [Zemismart 2-gang switch 🅱](https://www.zigbee2mqtt.io/devices/TS0012.html) | [`Store`](https://www.zemismart.com/products/kes-606us-z?VariantsId=14160) | [`#022`](https://github.com/romasku/tuya-zigbee-switch/issues/22) | Supported | 
 | 🟧 | ❌️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZE200_r731zlxk` <br> `TS0601` | [Zemismart TB26-6](https://www.zigbee2mqtt.io/devices/TB26-6.html) | [`Store`](https://www.zemismart.com/products/tb26-6) | [`#209`](https://github.com/romasku/tuya-zigbee-switch/issues/209) | Needs pinout. Secondary MCU. 6-gang! | 
+| 🟧 | ✔️ | 🇷 | 🔋 | 🛜 | **TL** | `_TZ3000_tzvbimpq` <br> `TS0042` | [Tuya TS0042 2-gang scene switch](https://www.zigbee2mqtt.io/devices/TS0042.html) |   |   | 2-gang battery scene switch. Same PCB as TS0043 3-gang variant. SW1→D2, SW3→C3 (SW2/C2 unpopulated). LED1→D4, LED3→D7 (LED2/C4 unpopulated). No hardware battery ADC divider - uses internal VBAT. Hold any button >5s to enter pairing mode.
+ | 
+| 🟧 | ✔️ | 🇷 | 🔋 | 🛜 | **TL** | `_TZ3000_sj7jbgks` <br> `TS0043` | [Tuya TS0043 3-gang scene switch](https://www.zigbee2mqtt.io/devices/TS0043.html) |   |   | 3-gang battery scene switch. Same PCB as TS0042 2-gang variant. All three gangs populated: SW1→D2, SW2→C2, SW3→C3. LED1→D4, LED2→C4, LED3→D7. Config string is untested - verify pinout before building.
+ | 
 
 Data from [`device_db.yaml`](/device_db.yaml)
