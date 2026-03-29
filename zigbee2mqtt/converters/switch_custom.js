@@ -11798,7 +11798,7 @@ const definitions = [
         zigbeeModel: [
             "TS0042-custom",
         ],
-        model: "TS0042",
+        model: "iHseno TS0042 2-gang scene switch",
         vendor: "Tuya-custom",
         description: "Custom switch (https://github.com/romasku/tuya-zigbee-switch)",
         extend: [
@@ -11853,7 +11853,7 @@ const definitions = [
         zigbeeModel: [
             "TS0043-custom",
         ],
-        model: "TS0043",
+        model: "iHseno TS0043 3-gang scene switch",
         vendor: "Tuya-custom",
         description: "Custom switch (https://github.com/romasku/tuya-zigbee-switch)",
         extend: [
