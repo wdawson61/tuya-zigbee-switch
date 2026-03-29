@@ -4837,7 +4837,7 @@ ZIGBEE_TUYA_TS0042_TZVBIMPQ:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: tzvbimpq;TS0042-custom;LD4;SD2u;SC3u;IC4;ID7;M;
+  config_str: tzvbimpq;TS0042-custom;SD2u;ID4;SC3u;ID7;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
@@ -4869,14 +4869,14 @@ ZIGBEE_TUYA_TS0043_SJ7JBGKS:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: sj7jbgks;TS0043-custom;LD4;SD2u;SC2u;SC3u;IC4;ID7;M;
+  config_str: sj7jbgks;TS0043-custom;SD2u;ID4;SC2u;IC4;SC3u;ID7;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
   stock_manufacturer_id: 4417
   stock_image_type: 54179
   firmware_image_type: 43521
-  build: "no"
+  build: "yes"
   status: in_progress
   info: >
     3-gang battery scene switch. Same PCB as TS0042 2-gang variant (1H-V1 2021/1/12).
