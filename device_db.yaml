@@ -1,5 +1,4 @@
 # yaml-language-server: $schema=./device_db.schema.json
-
 # ========== Device database ========== 
 # 
 # Please refer to device_db_explained.md
