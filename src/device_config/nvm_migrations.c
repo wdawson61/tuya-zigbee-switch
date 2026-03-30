@@ -50,8 +50,11 @@ void handle_version_changes() {
     }
 
     // Handle migrations here
-    // Example:
-    // if (oldVersion < XX) {
-    //   migrate_to_vXX();
-    // }
+    if (oldVersion < 2) {
+        // Existing devices have stale NV config lacking BTA0 (battery reporting).
+        // Delete it so the compiled-in default is used on next boot.
+        hal_nvm_delete(NV_ITEM_DEVICE_CONFIG);
+    }
+
+    write_version_to_nv(currentVersion);
 }
