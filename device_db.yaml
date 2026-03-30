@@ -4837,7 +4837,7 @@ ZIGBEE_TUYA_TS0042_TZVBIMPQ:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: tzvbimpq;TS0042-custom;SD2u;ID4;SC3u;ID7;M;
+  config_str: tzvbimpq;TS0042-custom;SD2u;ID4;SC3u;ID7;BTB5;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
@@ -4850,7 +4850,7 @@ ZIGBEE_TUYA_TS0042_TZVBIMPQ:
     2-gang battery scene switch. Same PCB as TS0043 3-gang variant (1H-V1 2021/1/12).
     S1→D2, S3→C3 (S2 centre unpopulated - no tactile switch fitted).
     LED1→D4 (near S1), LED2 FET→C4, LED3→D7 (near S3).
-    No hardware battery ADC divider - uses internal VBAT.
+    Battery reporting via internal VBAT ADC (BTB5 - no external divider needed).
     Hold any button >5s to enter pairing mode.
   threads: null
   store: null
@@ -4869,7 +4869,7 @@ ZIGBEE_TUYA_TS0043_SJ7JBGKS:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: sj7jbgks;TS0043-custom;SD2u;ID4;SC2u;IC4;SC3u;ID7;M;
+  config_str: sj7jbgks;TS0043-custom;SD2u;ID4;SC2u;IC4;SC3u;ID7;BTB5;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
