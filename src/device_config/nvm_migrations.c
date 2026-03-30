@@ -50,9 +50,10 @@ void handle_version_changes() {
     }
 
     // Handle migrations here
-    if (oldVersion < 2) {
-        // Existing devices have stale NV config lacking BTA0 (battery reporting).
-        // Delete it so the compiled-in default is used on next boot.
+    if (oldVersion < 3) {
+        // Delete stale NV config so the compiled-in default is used on next boot.
+        // v2: cleared configs missing BTA0 (battery token)
+        // v3: PA0 (BTA0) is not in TLSR8258 ADC_GPIO_tab; switch to BTB5 (PB5)
         hal_nvm_delete(NV_ITEM_DEVICE_CONFIG);
     }
 

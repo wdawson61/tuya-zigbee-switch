@@ -4837,7 +4837,7 @@ ZIGBEE_TUYA_TS0042_TZVBIMPQ:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: tzvbimpq;TS0042-custom;SD2u;ID4;SC3u;ID7;BTA0;M;
+  config_str: tzvbimpq;TS0042-custom;SD2u;ID4;SC3u;ID7;BTB5;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
@@ -4869,7 +4869,7 @@ ZIGBEE_TUYA_TS0043_SJ7JBGKS:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: sj7jbgks;TS0043-custom;SD2u;ID4;SC2u;IC4;SC3u;ID7;BTA0;M;
+  config_str: sj7jbgks;TS0043-custom;SD2u;ID4;SC2u;IC4;SC3u;ID7;BTB5;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
