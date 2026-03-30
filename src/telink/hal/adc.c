@@ -32,7 +32,7 @@ uint16_t hal_adc_read_mv() {
         hal_adc_init(adc_input, adc_pin);
     }
     drv_adc_enable(true);
-    sleep_us(100);  // TODO do actually need this?
+    sleep_ms(25);  // VBAT mode requires significant settling time (~25ms)
     uint16_t voltage_mv = drv_get_adc_data();
     drv_adc_enable(false);
     printf("Battery voltage (mV): %d\r\n", voltage_mv);
