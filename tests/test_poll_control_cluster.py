@@ -23,7 +23,7 @@ END_DEVICE_CMD = ["./build/stub/stub_end_device"]
 BATTERY_CHECK_IN_INTERVAL = 3600 * 4  # 1 hour
 BATTERY_LONG_POLL_INTERVAL = 30 * 4  # 30 seconds
 BATTERY_SHORT_POLL_INTERVAL = 2  # 500ms
-BATTERY_FAST_POLL_TIMEOUT = 10 * 4  # 10 seconds
+BATTERY_FAST_POLL_TIMEOUT = 120 * 4  # 2 minutes — gives Z2M time to configure after join/reboot
 
 NON_BATTERY_CHECK_IN_INTERVAL = 3600 * 4
 NON_BATTERY_LONG_POLL_INTERVAL = 1  # 250ms
